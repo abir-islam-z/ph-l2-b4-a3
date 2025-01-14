@@ -358,7 +358,7 @@ Authorization: Bearer <token>
 
 ## Submission Checklist
 
-1. **Live Deployment Link:** [Live Link](https://blogs-api-smoky.vercel.app/)
+1. **Live Deployment Link:** [Live Link](https://assignment-3-iota-red.vercel.app/)
 2. **GitHub Repository Link:** [Repository](https://github.com/abir-islam-z/ph-l2-b4-a4)
 3. **Admin Login Credentials:** Included above.
 4. **Project Overview Video:** [Google Drive](https://drive.google.com/drive/folders/1eVMmHLWy6fcuMbUbLPhQDKOEFKDIcUhT?usp=sharing)
