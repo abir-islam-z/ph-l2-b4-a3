@@ -1,6 +1,6 @@
-import config from '@/app/config';
-import AppError from '@/app/errors/AppError';
 import httpStatus from 'http-status';
+import config from '../../config';
+import AppError from '../../errors/AppError';
 import { UserModel } from '../user/user.model';
 import { TLoginUser, TRegisterUser } from './auth.interface';
 import { createToken } from './auth.utils';

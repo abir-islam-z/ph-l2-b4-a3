@@ -1,6 +1,6 @@
-import catchAsync from '@/app/utils/catchAsync';
-import { sendResponse } from '@/app/utils/sendResponse';
 import { Request, Response } from 'express';
+import catchAsync from '../../utils/catchAsync';
+import { sendResponse } from '../../utils/sendResponse';
 import { AuthService } from './auth.service';
 
 const registerUser = catchAsync(async (req: Request, res: Response) => {

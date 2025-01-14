@@ -1,11 +1,11 @@
-import { Response } from 'express'
+import { Response } from 'express';
 
 type ResponseType<T> = {
-  success: boolean
-  message: string
-  statusCode: number
-  data?: T
-}
+  success: boolean;
+  message: string;
+  statusCode: number;
+  data?: T;
+};
 
 export const sendResponse = <T>(res: Response, data: ResponseType<T>) => {
   return res.status(data?.statusCode).json({
@@ -13,5 +13,5 @@ export const sendResponse = <T>(res: Response, data: ResponseType<T>) => {
     message: data?.message,
     statusCode: data?.statusCode,
     data: data?.data,
-  })
-}
+  });
+};

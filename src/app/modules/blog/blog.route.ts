@@ -1,6 +1,6 @@
-import auth from '@/app/middlewares/auth';
-import validateRequest from '@/app/middlewares/validateRequest';
 import { Router } from 'express';
+import auth from '../../middlewares/auth';
+import validateRequest from '../../middlewares/validateRequest';
 import { BlogController } from './blog.controller';
 import { BlogValidation } from './blog.validation';
 

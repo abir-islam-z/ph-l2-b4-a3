@@ -1,7 +1,7 @@
-import config from '@/app/config';
 import bcrypt from 'bcrypt';
 import { model, Schema } from 'mongoose';
 import { isEmail } from 'validator';
+import config from '../../config';
 import { USER_ROLES } from './user.constant';
 import { TUser, TUserModel } from './user.interface';
 

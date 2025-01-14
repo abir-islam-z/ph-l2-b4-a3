@@ -10,7 +10,7 @@ const handleAuthenticationError = (err: JsonWebTokenError) => {
     message = 'Token expired';
   }
 
-  let errorSources: TErrorSources = [
+  const errorSources: TErrorSources = [
     {
       path: '',
       message,

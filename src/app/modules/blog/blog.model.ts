@@ -1,6 +1,6 @@
-import AppError from '@/app/errors/AppError';
 import httpStatus from 'http-status';
 import { model, Schema } from 'mongoose';
+import AppError from '../../errors/AppError';
 import { TBlog, TBlogModel } from './blog.interface';
 
 export const blogSchema = new Schema<TBlog, TBlogModel>(

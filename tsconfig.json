@@ -13,15 +13,6 @@
 
     /* Type Checking */
     "strict": true,
-    "skipLibCheck": true,
-
-    /* Paths */
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["*"],
-      "@modules/*": ["app/modules/*"],
-      "@config/*": ["app/config/*"],
-      "@routes/*": ["app/routes/*"]
-    }
+    "skipLibCheck": true
   }
 }
